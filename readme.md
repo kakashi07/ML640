@@ -14,7 +14,7 @@ Similarly, **_P(X,Y|W)_** = **_P(X|Y,W)P(Y|W)_**
 Now we need to determine ways to calculate P(X|Y). If we assume that this distribution is Gaussian in nature (i.e. have a prior belief that the input data is Gaussian), then we can model this distribution with a mean and covariance per class distribution i.e. **P(X|Y= yi) where yi = {Set of valid output classes}.**
 
 For example, if we have two different classes, Then 
-![image.png](LDA_QDA/img/img1)
+![image.png](LDA_QDA/img/img1.png)
 ![image.png](https://hypernotes.zenkit.com/api/v1/lists/2703885/files/5j-w1V_TO)
     - where ![image.png](https://hypernotes.zenkit.com/api/v1/lists/2703885/files/_iktXL3rnE) denote mean and variance of each class.
     - These two equations can be simply calculated using the Gaussian formula.
