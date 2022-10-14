@@ -1,0 +1,4 @@
+
+This is the repo where i push finanlized codes. Each project shall be located in their corresponding folder.
+
+
